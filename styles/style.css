@@ -29,6 +29,7 @@
     background-image: url(../image/developer.png), url(../image/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    border-image-width: auto;
 }
 
 /* nav styles */
@@ -72,7 +73,9 @@ nav ul li a{
     font-size: 45px;
     font-weight: 600;
 }
-
+button{
+    gap: 10px;
+}
 .banner-title{
 
     font-weight: bold;
@@ -86,4 +89,88 @@ nav ul li a{
 .banner-profile-pic{
 
     width: 500px;
+}
+/* about section */
+.about{
+    background-color: #f5e2d5;
+    margin-top: 127px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.about-section{
+    text-align: center;
+    justify-content: center;
+    padding: 50px 150px;
+}
+.contactInAboutSec{
+    display: flex;
+    margin: 22.5px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+.what-do-content{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.what-i-do{
+    text-align: center;
+    padding: 5%;
+}
+.skills{
+    display: flex;
+    gap: 24px;
+    /* box-shadow: 0px 6px 50px 0px; */
+}
+/* skill container */
+.skill-container{
+    box-shadow: 0px 6px 50px 0px #f5e2d5;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* resume section conteiner */
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+..experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-description , .experience-sub-title{
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume hr{
+    margin: 25px 10px;
+}
+.footer{
+    /* display: flex; */
+    background-color: #e2cdbe;
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 80vh;
+}
+footer{
+    display: flex;
+    padding: 130px 150px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }
